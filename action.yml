@@ -92,6 +92,11 @@ inputs:
     default: ''
     required: false
 
+  summary-coverage-textual:
+    description: 'Show textual coverage instead of badge in summary'
+    default: 'false'
+    required: false
+
 outputs:
   coverage:
     description: 'Value indicating the coverage percentage of your report based on jest, example 78'
